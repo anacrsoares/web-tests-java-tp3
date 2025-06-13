@@ -18,7 +18,7 @@ public class SimpleApiPutItem {
         try {
             String body = "{\"type\": \"book\", \"isbn13\": \"978-1-86-197271-1\", \"price\": 9.99, \"numberinstock\": 2}";
 
-            URL url = URI.create("https://apichallenges.eviltester.com/simpleapi/items/15").toURL();
+            URL url = URI.create("https://apichallenges.eviltester.com/simpleapi/items/17").toURL();
             HttpURLConnection conn = (HttpURLConnection) url.openConnection();
             conn.setRequestMethod("PUT");
             conn.setRequestProperty("Accept", "application/json");

@@ -23,7 +23,7 @@ public class SimpleApiDeleteItem {
 
             conn.disconnect();
 
-            URL url2 = URI.create("https://apichallenges.eviltester.com/simpleapi/items/15").toURL();
+            URL url2 = URI.create("https://apichallenges.eviltester.com/simpleapi/items/17").toURL();
             HttpURLConnection conn2 = (HttpURLConnection) url2.openConnection();
             conn2.setRequestMethod("DELETE");
             conn2.setRequestProperty("Accept", "application/json");
